@@ -48,7 +48,6 @@ In your terminal:
 
 ### 3. Set your README, .gitignore & requirements file
 * README
-    * Idea for [structure](https://github.com/Lucamiras/data-science-project-template)
     * Help for the [formatting](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
     * PyCharm comes in handy when creating the file
 * .gitignore
