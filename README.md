@@ -1,4 +1,4 @@
-# DSR Teaching: How to SetUp a Data Science Project
+# DSR Teaching: How to set up a Data Science Project
 
 
 ![image](./assets/image.jpg)
@@ -24,7 +24,7 @@ It follows these steps:
 * Visual Studio Code ([download here](https://code.visualstudio.com/download)) or  PyCharm ([installation instructions](https://www.jetbrains.com/help/pycharm/installation-guide.html))
 * Github
     * Example for file structure - pipeline and project workflow template of  [DSSG](https://github.com/dssg/hitchhikers-guide/tree/master/sources/curriculum/0_before_you_start/pipelines-and-project-workflow). 
-    * [repo template](https://github.com/Iskriyana/data-science-project-template)  
+    * [repo template](https://github.com/Lucamiras/data-science-project-template)  
 
 ## Detailed Instructions 
 
@@ -48,7 +48,7 @@ In your terminal:
 
 ### 3. Set your README, .gitignore & requirements file
 * README
-    * Idea for [structure](https://github.com/Iskriyana/data-science-project-template)
+    * Idea for [structure](https://github.com/Lucamiras/data-science-project-template)
     * Help for the [formatting](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
     * PyCharm comes in handy when creating the file
 * .gitignore
