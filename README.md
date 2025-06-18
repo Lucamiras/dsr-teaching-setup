@@ -76,6 +76,14 @@ In your terminal:
 * `conda activate dsr-setup`
 * conda [cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
+### 4.1 Alternatively, use UV
+* Navigate back out of your project folder.
+* Linux and MacOS: `curl -LsSf https://astral.sh/uv/install.sh | sudo sh`
+* Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+* `uv init dsr-setup-uv`
+* `uv add scikit-learn
+Choose uv for it's high performance and full project support. Choose Conda for Data Science-specific projects.
+
 ### 5. Install needed packages
 Still in your terminal and in the root folder of your repository execute
 * `pip install -r requirements.txt`
