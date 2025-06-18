@@ -76,14 +76,6 @@ In your terminal:
 * `conda activate dsr-setup`
 * conda [cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
-### 4.1 Alternatively, use UV
-* Navigate back out of your project folder.
-* Linux and MacOS: `curl -LsSf https://astral.sh/uv/install.sh | sudo sh`
-* Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
-* `uv init dsr-setup-uv`
-* `uv add scikit-learn
-Choose uv for it's high performance and full project support. Choose Conda for Data Science-specific projects.
-
 ### 5. Install needed packages
 Still in your terminal and in the root folder of your repository execute
 * `pip install -r requirements.txt`
@@ -100,7 +92,15 @@ In your terminal make sure the environment is activated and execute:
 * **NOTE**: the folder, from which you started jupyter, will be your root folder.
 * **NOTE**: if your tool of choice does not start, try first installing it by running `conda install jupyter`or `conda install jupyterlab`
 
-### Bonus: Install a Code Formatter
+### Bonus: Explore uv - a fast alternative to conda written in Rust
+* Navigate back out of your project folder.
+* Linux and MacOS: `curl -LsSf https://astral.sh/uv/install.sh | sudo sh`
+* Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+* `uv init dsr-setup-uv`
+* `uv add scikit-learn
+Choose uv for it's high performance and full project support. Choose Conda for Data Science-specific projects.
+
+### Bonus II: Install a Code Formatter
 * It is best practice to format your Python code according to [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 * Especially while learning, try to pay attention to it and correct yourself manually
 * You can then automatically format your code by installing a code formatter
