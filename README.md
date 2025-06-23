@@ -92,6 +92,9 @@ In your terminal make sure the environment is activated and execute:
 * **NOTE**: the folder, from which you started jupyter, will be your root folder.
 * **NOTE**: if your tool of choice does not start, try first installing it by running `conda install jupyter`or `conda install jupyterlab`
 
+### Troubleshooting
+* **pip not installed**: If `pip` commands do not work, pip may not be installed. Typically, it is automatically installed. If that didn't happen, follow these instructions: https://pip.pypa.io/en/stable/installation/
+
 ### Bonus: Explore uv - a fast alternative to conda written in Rust
 * Navigate back out of your project folder.
 * Linux and MacOS: `curl -LsSf https://astral.sh/uv/install.sh | sudo sh`
