@@ -97,7 +97,7 @@ In your terminal make sure the environment is activated and execute:
 * Linux and MacOS: `curl -LsSf https://astral.sh/uv/install.sh | sudo sh`
 * Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
 * `uv init dsr-setup-uv`
-* `uv add scikit-learn
+* `uv add scikit-learn`
 Choose uv for it's high performance and full project support. Choose Conda for Data Science-specific projects.
 
 ### Bonus II: Install a Code Formatter
